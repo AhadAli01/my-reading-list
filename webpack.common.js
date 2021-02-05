@@ -9,7 +9,7 @@ module.exports = {
     },
     plugins: [new HtmlWebpackPlugin({
         template: "./src/template.html",
-        favicon: "./assets/favicon-32x32.png"
+        favicon: "src/assets/open-book.ico"
     }),
     new ReplaceUrlHtmlWebpackPlugin()],
     module: {
@@ -19,7 +19,7 @@ module.exports = {
                 use: ["html-loader"]
             },
             {
-                test: /\.(svg|png|jpg|gif)$/,
+                test: /\.(svg|png|jpg|gif|ico)$/,
                 use: {
                     loader: "file-loader",
                     options: {
