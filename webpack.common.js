@@ -8,7 +8,8 @@ module.exports = {
         vendor: "./src/vendor.js"
     },
     plugins: [new HtmlWebpackPlugin({
-        template: "./src/template.html"
+        template: "./src/template.html",
+        favicon: "./assets/favicon-32x32.png"
     }),
     new ReplaceUrlHtmlWebpackPlugin()],
     module: {
