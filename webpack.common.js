@@ -9,7 +9,7 @@ module.exports = {
     },
     plugins: [new HtmlWebpackPlugin({
         template: "./src/template.html",
-        favicon: "src/assets/open-book.ico"
+        favicon: "./src/assets/open-book.ico"
     }),
     new ReplaceUrlHtmlWebpackPlugin()],
     module: {
