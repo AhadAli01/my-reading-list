@@ -10,13 +10,14 @@ export function addBook(e) {
     const title = document.querySelector('#title').value;
     const author = document.querySelector('#author').value;
     const pages = document.querySelector('#pages').value;
+    const date = document.querySelector('#date').value;
 
     // Validate
-    if (title === '' || author === '' || pages === '') {
+    if (title === '' || author === '' || pages === '' || date === '') {
         UI.showAlert('Please fill in all fields', 'danger');
     } else {
         // Instantiate book
-        const book = new Book(title, author, pages);
+        const book = new Book(title, author, pages, date);
 
         // Add Book to UI
         UI.addBookToList(book);
