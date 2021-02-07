@@ -14,3 +14,17 @@ persistent data storage and a simple, elegant and responsive design.
 ### Usage
 *** 
 [Live Demo](https://ahadali01.github.io/my-reading-list/)
+
+To tinker with the code and start own localhost server, simply clone repository and then type 
+```bash
+npm install
+``` 
+to install all necessary node modules as specified in package.json and then
+```bash
+npm start
+```
+or
+```bash
+npm run build
+```
+to create the dist folder with the bundled and executed code.
