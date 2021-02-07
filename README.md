@@ -8,7 +8,7 @@ for personal use.
 
 ### Key Learnings
 ***
-This project aims to help gain experience with designing and a developing a relatively large software project. Some practical concepts explored included Webpack, file handling,
+This project aims to help gain experience with designing and a developing a relatively large software project. Some practical concepts explored included Webpack,
 persistent data storage using LocalStorage and a simple, elegant and responsive design.
 
 ### Usage
